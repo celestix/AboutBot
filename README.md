@@ -14,7 +14,7 @@ For A Demo You Can Checkout [@ScarlettAssistant_Bot](https://t.me/ScarlettAssist
 # How to Deploy 
 
 You Can Simply Deploy It Through Following Button Easily.<br><br>
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anonyindian/PYGO)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # Configurations
 
