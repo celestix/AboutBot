@@ -1,0 +1,5 @@
+telethon
+cryptg
+heroku3
+sqlalchemy>=1.2
+psycopg2

@@ -1,0 +1,72 @@
+{
+  "name": "AboutBot",
+  "description": "A Simple About Bot in Telethon~Python",
+  "logo": "https://images.discordapp.net/avatars/736298326080618617/bd45b01b22769e88335524b55ac9be9b.png",
+  "keywords": [
+    "telegram",
+    "aboutbot",
+    "informative",
+    "telegram-user-about",
+    "aboutbot"
+  ],
+  "repository": "https://github.com/anonyindian/AboutBot",
+  "website": "https://github.com/anonyindian",
+  "success_url": "https://github.com/anonyindian/AboutBot",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Make a new bot through @BotFather and paste Bot Token here.",
+      "value": ""
+    },
+    "BOT_NAME": {
+      "description": "Name of your bot",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Type your permanent telegram ID here.",
+      "value": ""
+    },
+    "OWNER_UN": {
+      "description": "Type your username here, including '@'. For eg :- @anonyindian",
+      "value": ""
+    },
+    "ABOUT_SECTION": {
+      "description": "Type here what you wanted to keep in about section like your name, username, id, etc.",
+      "value": ""
+    },
+    "BOT_SECTION": {
+      "description": "Type here your bot's usernames. You can disable this section by leaving it as it is",
+      "value": "None"
+    },
+    "OWNERSHIPS": {
+      "description": "List all channels and groups where you are owner.",
+      "value": ""
+    },
+    "COM_SECTION": {
+      "description": "List names of all communities where you are member.",
+      "value": ""
+    },
+    "FED_SECTION": {
+      "description": "This section is to describe about your fed. You can leave this section as it is to disable it",
+      "value": "None"
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
